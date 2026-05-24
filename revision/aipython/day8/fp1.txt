@@ -1,0 +1,3 @@
+Functions Part 1
+
+input, logic and output

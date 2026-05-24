@@ -1,0 +1,20 @@
+More about Data Visualization
+Python User:
+    Seaborn
+    Plotly
+    Mathplotlib
+
+Non-Python User:
+    Tableau
+    PowerBI
+    Google Looker Studio
+    Datawrapper
+
+Color:
+    ColorBrewer
+    Pinterest
+    AdobeColor Wheel
+    
+
+
+

@@ -1,0 +1,28 @@
+Popular Python Libraries
+    Data Science
+        Numpy
+        Pandas
+        Mathplotlib
+        Sklearn
+        Pytorch
+        Tensorflow
+    Web Development
+        Flask
+        Django
+        Streamlit
+    Web Scrapping
+        BeautifulSoup
+        Selenium
+        Scrapy
+    Computer Vision/ Image Processing
+        OpenCV
+        Pillow
+        MoviePy
+        Ultralytics
+    API
+        Requests
+        Flask
+        FastAPI
+
+
+

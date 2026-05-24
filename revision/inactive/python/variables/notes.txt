@@ -1,0 +1,13 @@
+agenda
+    comments
+        single line comments
+            #
+        multi line comments
+            """" text """
+    variables
+        variables are used to 
+    dynamic type
+    type()
+    id()
+    print()
+    input()

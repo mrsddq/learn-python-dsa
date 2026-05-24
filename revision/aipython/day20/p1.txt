@@ -1,0 +1,8 @@
+from collections import Counter
+
+L1 = [1, 2, 2, 3, 2, 3, 4, 5]
+counter = Counter(L1)
+most_repetitive = counter.most_common(1)[0]  # Get the most common element and its count
+
+element, count = most_repetitive
+print(f"The most repetitive element is {element}, which appears {count} times.")

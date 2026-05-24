@@ -1,0 +1,7 @@
+Popular Python Resources
+    w3schools
+    geeksforgeks
+    hackerrank
+
+Youtube
+    thenewboston

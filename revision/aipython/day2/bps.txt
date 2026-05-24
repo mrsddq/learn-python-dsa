@@ -1,0 +1,14 @@
+Basic Python Syntax
+
+int float str
+int
+    integer
+        -infinity, ..., -1, 0, 1, ..., infinity
+    float
+        decimal
+            0.1, 0.01, -0.1, 10.3
+    str
+        character
+            "a", 'a', "bus"
+
+variables
