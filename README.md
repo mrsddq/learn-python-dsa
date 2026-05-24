@@ -1,18 +1,47 @@
 # Learn Python DSA
 
-A consolidated Python and data structures/algorithms learning repository.
+Extensive Python and data structures/algorithms learning repository.
+
+This repo has two jobs:
+
+- preserve the original course/practice archive under `ITP/`, `DSA/`, and `revision/`
+- provide a clean, tested reference layer under `src/dsa/` for optimized implementations
 
 ## Structure
 
 ```text
-DSA/
-ITP/
-revision/
+DSA/                 original DSA practice files
+ITP/                 introduction-to-python practice files
+revision/            merged revision material
+src/dsa/             clean reference implementations
+tests/               tests for reference implementations
+docs/
+  learning-roadmap.md
+  problem-index.md
 ```
 
-## Revision Material
+## Clean Reference Implementations
 
-The old `revise-dsa-python` repository has been merged into `revision/` so DSA practice and revision notes live in one place.
+```bash
+pytest
+```
+
+Current reference modules:
+
+- `src/dsa/searching.py`
+- `src/dsa/sorting.py`
+- `src/dsa/stack.py`
+- `src/dsa/queue.py`
+
+## Learning Philosophy
+
+For every topic:
+
+1. Understand the brute-force approach.
+2. Write the simple implementation.
+3. Optimize time and space complexity.
+4. Add tests for edge cases.
+5. Document the pattern in `docs/problem-index.md`.
 
 ## Status
 
