@@ -46,3 +46,5 @@ For every topic:
 ## Status
 
 This is the primary home for Python DSA learning and revision work.
+
+Next upgrade: expand edge-case tests and add time/space complexity notes for each clean implementation in `src/dsa/`.
