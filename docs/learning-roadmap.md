@@ -1,4 +1,4 @@
-# Python DSA Learning Roadmap
+# Python Algorithm Lab Roadmap
 
 ## Phase 1: Python Fundamentals
 
