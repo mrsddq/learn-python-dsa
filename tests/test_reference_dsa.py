@@ -9,15 +9,24 @@ from src.dsa.stack import Stack
 def test_linear_search():
     assert linear_search([4, 2, 9], 2) == 1
     assert linear_search([4, 2, 9], 7) == -1
+    assert linear_search([], 7) == -1
+    assert linear_search([2, 2, 2], 2) == 0
 
 
 def test_binary_search():
     assert binary_search([1, 3, 5, 7, 9], 7) == 3
     assert binary_search([1, 3, 5, 7, 9], 2) == -1
+    assert binary_search([], 2) == -1
+    assert binary_search([-10, -3, 0, 4], -3) == 1
 
 
 def test_merge_sort():
     assert merge_sort([5, 1, 4, 2, 3]) == [1, 2, 3, 4, 5]
+    assert merge_sort([]) == []
+    assert merge_sort([3, 1, 3, -2]) == [-2, 1, 3, 3]
+    original = [2, 1]
+    assert merge_sort(original) == [1, 2]
+    assert original == [2, 1]
 
 
 def test_stack():
@@ -26,6 +35,7 @@ def test_stack():
     stack.push("b")
 
     assert stack.peek() == "b"
+    assert len(stack) == 2
     assert stack.pop() == "b"
     assert stack.pop() == "a"
     with pytest.raises(IndexError):
@@ -37,6 +47,7 @@ def test_queue():
     queue.enqueue("a")
     queue.enqueue("b")
 
+    assert len(queue) == 2
     assert queue.dequeue() == "a"
     assert queue.dequeue() == "b"
     with pytest.raises(IndexError):
